@@ -1,0 +1,23 @@
+1,kinetic energy [MeV]           :	10
+2,field map type                 : Kyoto
+3,field map name                 : kyoto_f814_d980.table
+4,initial r [m]                  : 4.4
+5,dev from CO, dr [m]            : 0.001
+6,dev from CO, dz [m]            : 0.001
+7,RK step, dth [deg]             : 0.001
+8,RK step, dth for BL [deg]      : 0.001
+9,Accelerating init E [MeV]      : 10
+10,Accelerating end E [MeV]      : 10
+11,total turn number             : 100
+12,look phase space at x [deg]   : 0
+13,look mag field at r [m]       : 4.4
+14,look mag field at z [m]       : 0
+15,COD kick [mrad]               : 0
+#
+1,plot half cell magnet field    : 0
+2,plot E vs CO radius by Accel   : 0
+3,Find a closed orbit            : 0
+4,plot a closed orbit            : 0
+5,plot a closed orbit distorsion : 0
+6,plot a phase space after turn  : 0
+7,calculate tunes iE to eE       : 1

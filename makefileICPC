@@ -1,0 +1,15 @@
+M=src/main.cpp
+R=src/run.cpp
+E=src/equation.cpp
+D=src/data.cpp
+FUNC=src/function.cpp
+F=src/fieldAnalysis.cpp
+
+STLPATH=/usr/include/c++/4.8.5/
+C11=-std=c++11
+
+aprun: $(M) $(R) $(E) $(D) $(FUNC) $(F)
+	icpc $(C11) -Wall -xHost -O3 -ipo $(M) $(R) $(E) $(D) $(FUNC) $(F) -o aprun
+	rm *~
+clean:
+	rm -f *.o prep
